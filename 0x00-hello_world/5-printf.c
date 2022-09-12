@@ -2,8 +2,7 @@
 
 
 /**
- *
- *  main - Print a string
+ *  main - Entry point
  *
  * * Description: use printf
  *

@@ -2,7 +2,7 @@
 #include  <stdio.h>
 
 /*
- *	main entry point no arguements
+ * main(void) - entry point no arguements
  *
  * Use puts function to print
  *
@@ -12,6 +12,6 @@
 
 int main(void)
 {
-	puts("Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle\n");
 	return (0);
 }

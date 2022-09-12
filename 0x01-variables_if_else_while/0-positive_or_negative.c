@@ -1,18 +1,21 @@
-include <stdio.h>
+#include <stdio.h>
 
 #include <stdlib.h>
 
 #include <time.h>
 
 /**
+ * main - Entry point
  *
- *  * main - Entry point
+ * if - condition for printing
  *
- *   *
+ * else if - alternate condition for printing
  *
- *    * Return: Always 0 (Seccess/correct)
+ * else - alternate condition to execute printing
  *
- *     */
+ *    * Return: Always 0 (Success/correct)
+ *
+ */
 
 
 
@@ -27,28 +30,17 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	if (n == 0)
+	printf("%d is zero\n", n);
 
-	{
 
-		printf("%d is zero\n", n);
+	else if (n <= 0)
+	printf("%d is negative\n", n);
 
-	}
 
-	else if (n < 0)
+	else(n >= 0);
 
-	{
+	printf("%d is positive\n", n);
 
-		printf("%d is negative\n", n);
-
-	}
-
-	else
-
-	{
-
-		printf("%d is positive\n", n);
-
-	}
 
 	return (0);
 

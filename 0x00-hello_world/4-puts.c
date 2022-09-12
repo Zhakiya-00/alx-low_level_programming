@@ -1,17 +1,24 @@
 
-#include  <stdio.h>
+#include<stdio.h>
 
-/*
- * main(void) - entry point no arguements
+
+
+/**
+ * main -Entry point
  *
- * Use puts function to print
+ *    * Description: 'Printing to the stdout using puts function'
  *
- * return 0
+ *      * Return: Always 0 (Success)
  *
  */
 
 int main(void)
+
 {
+
 	puts("\"Programming is like building a multilingual puzzle\n");
+
+
 	return (0);
+
 }

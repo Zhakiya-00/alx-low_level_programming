@@ -2,8 +2,6 @@
 
 
 
-
-
 /**
  *
  * * main - prints to string
@@ -13,7 +11,7 @@
  * * Return: 1
  *
  *
- **/
+*/
 
 int main(void)
 

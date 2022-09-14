@@ -4,7 +4,7 @@
  *_abs - returns absl value n of an int
  * @a: parse me
  *
- * Return : the absolute value of int
+ * Return: the absolute value of int
  */
 
 int _abs(int a)

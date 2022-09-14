@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int_abs - returns absl value n of an int
+ * _abs - returns absl value n of an int
  * @a: parse me
  *
  * Return : the absolute value of int
@@ -13,9 +13,9 @@ int _abs(int a)
 	{
 		return(-a);
 	}
-	 else
-	 {
-		 return (a);
-	 }
+	else
+	{
+		return (a);
+	}
 }
 

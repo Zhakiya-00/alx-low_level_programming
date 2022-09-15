@@ -3,7 +3,7 @@
 
 
 /*
- *add - adds two integers and returns the result
+ * add - adds two integers and returns the result
  *
  *   * @a: int to be added to b
  *

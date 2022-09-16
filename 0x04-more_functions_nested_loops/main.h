@@ -1,3 +1,7 @@
+#ifndef FILE_HOLBERTON
+#define FILE_HOLBERTON
+
+
 int _isupper(int c);
 
 int _putchar(char c);
@@ -19,3 +23,5 @@ void print_diagonal(int n);
 void print_square(int size);
 
 void print_triangle(int size);
+
+#endif

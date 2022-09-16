@@ -1,22 +1,20 @@
-nclude "main.h"
+#include "main.h"
 
 
 
 /**
+ *  print_remaining_days - takes a date and prints how many days are
  *
- * * print_remaining_days - takes a date and prints how many days are
+ * left in the year, taking leap years into account
  *
- * * left in the year, taking leap years into account
+ * @month: month in number format
  *
- * * @month: month in number format
+ *  @day: day of month
  *
- * * @day: day of month
+ *  @year: year
  *
- * * @year: year
- *
- * * Return: void
- *
- * */
+ *  Return: void
+ */
 
 
 
@@ -42,9 +40,7 @@ void print_remaining_days(int month, int day, int year)
 
 		printf("Remaining days: %d\n", 366 - day);
 
-	}
-
-	else
+	} else
 
 	{
 
@@ -54,18 +50,13 @@ void print_remaining_days(int month, int day, int year)
 
 			printf("Invalid date: %02d/%02d/%04d\n", month, day - 31, year);
 
-		}
-
-		else
+		} else
 
 		{
 
 			printf("Day of the year: %d\n", day);
 
 			printf("Remaining days: %d\n", 365 - day);
-
 		}
-
 	}
-
 }

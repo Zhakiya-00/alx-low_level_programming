@@ -2,8 +2,7 @@
 
 /**
  *  swap_int - swaps the value of two intergers
- *
- *  @: pointer to the first value 
+ * @a: pointer to the first value
  *  @b: pointer to second value
  */
 

@@ -3,15 +3,10 @@
 
 
 /**
-
  * add_dnodeint - add a node at the beginning of a d list
-
  * @head: the head of the linked list
-
  * @n: the value to be added in the linked list
-
  * Return: new_node
-
  */
 
 

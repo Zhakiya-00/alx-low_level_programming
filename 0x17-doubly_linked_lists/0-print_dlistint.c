@@ -1,15 +1,10 @@
 #include "lists.h"
 
 
-
 /**
-
  * print_dlistint - print all the elements in a d list
-
  * @h: the head node
-
  * Return: the number of elements in the linked lists
-
  */
 
 

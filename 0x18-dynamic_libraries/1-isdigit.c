@@ -2,15 +2,8 @@
 
 /**
 *_isdigit - checks if it is a digit
-
-*
-
 *@c: parameter integer to test
-
-*
-
 *Return: 1 if its )-9 else 0
-
 */
 
 int _isdigit(int c)

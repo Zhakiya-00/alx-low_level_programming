@@ -2,19 +2,9 @@
 
 /**
 *_strcat - concatenates two strings
-
-*
-
 *@dest: string parameter
-
-*
-
 *@src: string parameter
-
-*
-
 *Return: concatenated string
-
 */
 
 char *_strcat(char *dest, char *src)

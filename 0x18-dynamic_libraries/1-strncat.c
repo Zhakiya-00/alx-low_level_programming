@@ -1,25 +1,11 @@
 #include "main.h"
 
 /**
-
 *_strncat - concatenate string
-
-*
-
 *@dest: string parameter
-
-*
-
 *@src: string parameter
-
-*
-
 *@n: number of bytes
-
-*
-
 *Return: concatenated string
-
 */
 
 char *_strncat(char *dest, char *src, int n)

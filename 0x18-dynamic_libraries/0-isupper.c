@@ -1,17 +1,13 @@
 #include "main.h"
 
 /**
-
 *_isupper - determins if uppercase
-
 *
-
 *@c: parameter integer
 
 *
 
 *Return: 1 if uppercase else 0
-
 */
 
 int _isupper(int c)
